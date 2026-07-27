@@ -35,7 +35,7 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 
 ## 1. Header Analysis
 
-### Results: https://github.com/batihroman/phishing-analysis-lab/blob/1af1ec4fb245369c857e45e459d37e67a4d17dcd/casino-phishing-scam/screenshots-casino/header_check_casino.png
+### Results: 
 
 | Authentication Check | Result | Meaning |
 |---|---|---|
@@ -47,6 +47,7 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 **Originating IP:** 141.95.0.46
 **Hosting provider:** OVH SAS — a major European VPS provider frequently abused for phishing campaigns due to low cost and weak abuse enforcement
 
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/1af1ec4fb245369c857e45e459d37e67a4d17dcd/casino-phishing-scam/screenshots-casino/header_check_casino.png
 ---
 
 ## 2. Domain Investigation
@@ -57,6 +58,8 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 - Domain appears to be attacker-controlled infrastructure
 - No affiliation with any legitimate casino business
 - Random subdomain naming pattern typical of spam infrastructure
+
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/84bcdfcfbdfca5afd91837a0ca6c92b50e8a74b1/casino-phishing-scam/screenshots-casino/domain_check_casino.png
 
 **Blacklist Check:**
 
