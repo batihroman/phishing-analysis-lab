@@ -35,7 +35,7 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 
 ## 1. Header Analysis
 
-### Results
+### Results: https://github.com/batihroman/phishing-analysis-lab/blob/1af1ec4fb245369c857e45e459d37e67a4d17dcd/casino-phishing-scam/screenshots-casino/header_check_casino.png
 
 | Authentication Check | Result | Meaning |
 |---|---|---|
