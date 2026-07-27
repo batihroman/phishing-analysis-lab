@@ -80,6 +80,8 @@ OVH IP ranges used for spam campaigns are frequently listed on multiple blacklis
 - Threat category: Phishing
 - Status: HTTP 200 — page active at time of analysis
 
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/a91c7c88c69f376db59e0205f2575eccadc726c2/casino-phishing-scam/screenshots-casino/virustotal_check_casino.png
+
 ---
 
 ## 4. What the Victim Experiences
