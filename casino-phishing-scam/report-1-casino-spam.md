@@ -48,6 +48,7 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 **Hosting provider:** OVH SAS — a major European VPS provider frequently abused for phishing campaigns due to low cost and weak abuse enforcement
 
 **Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/1af1ec4fb245369c857e45e459d37e67a4d17dcd/casino-phishing-scam/screenshots-casino/header_check_casino.png
+
 ---
 
 ## 2. Domain Investigation
@@ -64,6 +65,8 @@ the same shortened URL for the main button, the unsubscribe link, and the terms 
 **Blacklist Check:**
 
 OVH IP ranges used for spam campaigns are frequently listed on multiple blacklists. The IP address was blacklisted in two blacklist databases.
+
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/65b51314534d30c9052b601b61a609098d21010b/casino-phishing-scam/screenshots-casino/blacklist_check_casino.png
 
 ---
 
