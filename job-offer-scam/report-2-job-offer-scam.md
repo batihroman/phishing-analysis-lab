@@ -60,7 +60,7 @@ interface from an IP in Bangladesh. A legitimate Kforce hiring manager in the Un
 States would send from Kforce's corporate mail servers, not from free webmail hosted
 in Bangladesh. Authentication passing for consultant.com says nothing about Kforce.
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/mxtoolbox-report2.png
 
 ---
 
@@ -73,10 +73,10 @@ legitimate-sounding domain (not a recently registered lookalike) to appear credi
 This makes it harder to block and explains why DMARC passes. Note the registration
 date: this is an old domain, not a freshly registered phishing domain.
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/whois-report2.png
 
 **ICANN lookup for consultant.com:**
-screenshot
+https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/lookup-report2.png
 
 ### Originating IP: 103.76.241.19
 
@@ -86,14 +86,14 @@ screenshot
 servers always have reverse DNS configured. An IP with no reverse DNS sending email is
 suspicious by itself. It is listed in two blacklist databases: Spamhaus ZEN and RATS NoPtr which is definetelly a red flag.
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/blacklist-report2.png
 
 **IPinfo lookup:**
 - Country: Nowlamary, Khulna Division, Bangladesh
 - AS Type: ISP, Business or hosting
 - The Anycast says False which means that address is shared by multiple systems
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/ipinfo-report2.png
 
 ---
 
@@ -108,7 +108,7 @@ suspicious by itself. It is listed in two blacklist databases: Spamhaus ZEN and 
 - Domain: afflat3d3.com
 - Destination IP: 185.158.133.1 — Frankfurt am Main, Germany
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/virustotal-check-report2.png
 
 ---
 
