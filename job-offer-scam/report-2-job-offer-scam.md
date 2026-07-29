@@ -91,7 +91,7 @@ suspicious by itself. It is listed in two blacklist databases: Spamhaus ZEN and 
 **IPinfo lookup:**
 - Country: Nowlamary, Khulna Division, Bangladesh
 - AS Type: ISP, Business or hosting
-- The Anycast says False which means that address is shared by multiple systems
+- Anycast: False. This confirms this is a single dedicated server, not a distributed infrastructure. The IP maps to one physical location in Bangladesh
 
 **Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/f9b853f34fa0d056a10c86341e91639730433a10/job-offer-scam/screenshots-job-offer/ipinfo-report2.png
 
@@ -160,13 +160,13 @@ of their email login: a direct attempt to harvest additional credentials and PII
 
 ## 7. Recommendations
 
-**Block the email gateway:**
+**To block the email gateway:**
 - Block mail from afflat3d3.com and 103.76.241.19
 - Flag emails where display name claims a major company but sending domain does not match
 - Alert on emails sent from free webmail services (mail.com, gmx.com) claiming to be
   from major US corporations
 
-**Block the network level:**
+**To block the network level:**
 - Block afflat3d3.com at DNS and web proxy
 - Block 185.158.133.1 if no legitimate traffic expected
 
