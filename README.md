@@ -36,19 +36,19 @@ These three projects together cover a full attack chain:
 
 ## The Three Reports
 
-**[Report 1 — Casino Spam / Credential Harvesting](./casino-phishing-scam/report-1-casino-spam.md)**
+**[Report 1 — Casino Spam / Credential Harvesting](casino-phishing-scam)**
 Mass-distribution phishing campaign disguised as a casino promotion. Uses 
 URL shorteners to hide the real destination and passes all email authentication 
 checks because it authenticates correctly for its own domain. Shows how authentication passing does not mean an email is safe.
 
-**[Report 2 — Job Offer Scam / Business Email Compromise](./job-offer-scam/report-2-job-offer-scam.md)**
+**[Report 2 — Job Offer Scam / Business Email Compromise](job-offer-scam)**
 Impersonates a hiring manager from Kforce Inc, a real US staffing company. 
 Sent from Bangladesh through a free mail.com account, routes to a credential 
 harvesting site in Germany. More targeted and more convincing than Report 1,
 harder to catch because it uses a legitimate existing domain instead of a 
 freshly registered one.
 
-**[Report 3 — APT28 Spearphishing Against Ukrainian Government (CERT-UA#6562)](./apt28-spearphishing/report-3-apt28-spearphishing.md)**
+**[Report 3 — APT28 Spearphishing Against Ukrainian Government (CERT-UA#6562)](APT28-spreadphishing-scam)**
 April 2023 campaign by Russian military intelligence targeting Ukrainian 
 government departments. Attacker created Outlook accounts using real employee 
 surnames, sent fake Windows Update instructions in Ukrainian, and used 
