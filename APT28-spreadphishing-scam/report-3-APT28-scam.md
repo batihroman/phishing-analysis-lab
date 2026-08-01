@@ -80,9 +80,9 @@ as authentication is concerned.
 **Key finding:** outlook.com is a legitimate Microsoft-owned domain registered in 1994.
 It passes all security checks because it is a legitimate domain. 
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/whois_domain_check.png
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/icann_lookup.png
 
 ### Exfiltration Infrastructure: mocky.io
 
@@ -92,11 +92,11 @@ endpoint and had the PowerShell payload send system data to it. The traffic from
 machines to mocky.io looks identical to legitimate API testing traffic and is extremely effective at evading
 detection.
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/whois_check_mocky.png
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/blacklist_mocky.png
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/virustotal_mocky.png
 
 ---
 
@@ -127,7 +127,7 @@ it is required for system administration. By using PowerShell rather than delive
 a malware executable, APT28 avoids triggering file-based detection entirely. The
 malicious behavior occurs entirely in memory, leaving minimal artifacts.
 
-**Screenshot:**
+**Screenshot:** https://github.com/batihroman/phishing-analysis-lab/blob/d06de78742548d95aca52f4fbf08f7554aef4857/APT28-spreadphishing-scam/screenshots-APT28/T1566_attack.png
 
 ---
 
